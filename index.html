@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -34,16 +35,32 @@
         <a class="rover-header-link" href="#">Help</a>
       </section>
 
-      <section class="rover-header-right-mobile">
-        <img src="img/hamburger.svg" alt="hamburger-icon" width="100px" height="20px">
-      </section>
+      <button id="rover-header-right-mobile">
+        <i class="fa fa-bars" style="font-size:20px;"></i>
+      </button>
+
+
+      <div id="rover-mobile-menu">
+       <button id="close">X</button>
+       <nav class="rover-nav flex">
+        <a href="#">Search Sitters</a>
+        <a href="#">Become a Sitter</a>
+        <a href="#">Our Services</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Sign In</a>
+        <a href="#">Help</a>
+        </nav>
+      
+      </div>
+
+
 
     </header>
 
     <!--Rover Hero Container-->
     <section class="rover-hero-container flex">
       <h1 class="rover-hero-title" >We're the Dog People</h1>
-      <p >Book trusted, local pet sitters and<br/> walkers who will care for your dog<br/> or cat like you would.</p>
+      <p ><a href="menu.html">menu</a>Book trusted, local pet sitters and<br/> walkers who will care for your dog<br/> or cat like you would.</p>
       <div class="rover-button rover-cta-first">Search</div>
     </section>
 
